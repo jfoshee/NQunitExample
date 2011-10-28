@@ -1,0 +1,23 @@
+﻿<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="Content/qunit.css" type="text/css" media="screen" />
+        <script src="Scripts/qunit.js" language="javascript" type="text/javascript"></script>
+        <script language="javascript" type="text/javascript">
+            module("try it");
+            test("should pass", function () {
+            });
+            test("should fail", function () {
+                equals(1, 0, "impossible!");
+            });
+        </script>
+    </head>
+    <body>
+        <h1 id="qunit-header">QUnit example</h1>
+        <h2 id="qunit-banner"></h2>
+        <div id="qunit-testrunner-toolbar"></div>
+        <h2 id="qunit-userAgent"></h2>
+        <ol id="qunit-tests"><li class="fail"></li></ol>
+        <div id="qunit-fixture">test markup, will be hidden</div>
+    </body>
+</html>
