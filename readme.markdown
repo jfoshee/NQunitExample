@@ -1,4 +1,4 @@
-NQUnit Example
+﻿NQUnit Example
 ==============
 
 This is an example of how to run javascript tests within a .NET project.  
@@ -16,5 +16,5 @@ The majority of the code is boilerplate that you might need to do something simi
 - Feel free to contact me or open an issue if you have trouble
 
 ### Acknowledgements
-- Thanks to John Resig, J�rn Zaefferer for QUnit
+- Thanks to John Resig, Jörn Zaefferer for QUnit
 - Thanks to Robert Moore for NQUnit
