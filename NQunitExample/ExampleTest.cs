@@ -19,7 +19,7 @@ namespace NQunitExample
             {
                 if (item.InitializationException != null)
                     throw new Exception("Intialization Exception", item.InitializationException);
-                Assert.AreEqual("pass", item.Result);
+                Assert.AreEqual("pass", item.Result, item.Message);
             }
         }
 
